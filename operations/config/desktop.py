@@ -8,7 +8,7 @@ def get_data():
 			"module_name": "Operations",
 			"category": "Modules",
 			"color": "#FFE133",
-			"icon": "octicon octicon-database",
+			"icon": "assets/opaerations-icon.svg",
 			"type": "module",
 			"label": _("Operations"),
 			"description": "Automating invoices, maintaining plants, meter readings,..."
