@@ -7,67 +7,23 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1",
-  "customer",
   "subsidiary",
-  "cost_center",
-  "ew_bank_account",
-  "project",
   "type",
-  "comossioning_date",
-  "decomissioning_date",
   "invoice_form",
-  "section_break_11",
-  "price_slab",
+  "plant_paymentterms",
+  "plant_last_invoice_date",
   "section_break_13",
-  "invoicing"
+  "plant_customer",
+  "plant_project",
+  "plant_priceslabs"
  ],
  "fields": [
-  {
-   "fieldname": "name1",
-   "fieldtype": "Data",
-   "in_filter": 1,
-   "in_global_search": 1,
-   "label": "Name",
-   "reqd": 1,
-   "unique": 1
-  },
-  {
-   "fetch_if_empty": 1,
-   "fieldname": "customer",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "in_preview": 1,
-   "in_standard_filter": 1,
-   "label": "Customer",
-   "options": "Customer",
-   "reqd": 1
-  },
   {
    "fieldname": "subsidiary",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Subsidiary",
    "options": "Company"
-  },
-  {
-   "fieldname": "cost_center",
-   "fieldtype": "Link",
-   "label": "Cost Center",
-   "options": "Cost Center"
-  },
-  {
-   "fieldname": "ew_bank_account",
-   "fieldtype": "Select",
-   "label": "EW Bank Account",
-   "options": "-- Select\nADCB\nNBF"
-  },
-  {
-   "fieldname": "project",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Project",
-   "options": "Project"
   },
   {
    "fieldname": "type",
@@ -78,45 +34,50 @@
    "options": "-- Select\nOff-Grid\nO & M\nOn-Grid"
   },
   {
-   "fieldname": "comossioning_date",
-   "fieldtype": "Date",
-   "label": "Comossioning Date"
-  },
-  {
-   "fieldname": "decomissioning_date",
-   "fieldtype": "Date",
-   "label": "Decomissioning Date"
-  },
-  {
    "fieldname": "invoice_form",
    "fieldtype": "Data",
    "label": "Invoice Form"
-  },
-  {
-   "fieldname": "section_break_11",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "price_slab",
-   "fieldtype": "Table",
-   "in_preview": 1,
-   "label": "Price Slab",
-   "options": "Price Slab"
   },
   {
    "fieldname": "section_break_13",
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "invoicing",
+   "fieldname": "plant_paymentterms",
+   "fieldtype": "Link",
+   "label": "Payment Terms",
+   "options": "Payment Term"
+  },
+  {
+   "fieldname": "plant_customer",
    "fieldtype": "Table",
-   "label": "Invoicing",
-   "options": "Site Detail"
+   "label": "Customer",
+   "options": "Plant Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "plant_project",
+   "fieldtype": "Table",
+   "label": "Project",
+   "options": "Site Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "plant_priceslabs",
+   "fieldtype": "Table",
+   "label": "Price Slabs",
+   "options": "Site Price Slabs",
+   "reqd": 1
+  },
+  {
+   "fieldname": "plant_last_invoice_date",
+   "fieldtype": "Date",
+   "label": "Last Invoice Date"
   }
  ],
  "max_attachments": 2,
- "modified": "2020-07-26 11:11:12.070759",
- "modified_by": "Administrator",
+ "modified": "2020-07-27 16:17:43.181989",
+ "modified_by": "beschier.h@enerwhere.com",
  "module": "Operations",
  "name": "Plants",
  "name_case": "Title Case",
@@ -136,7 +97,6 @@
   }
  ],
  "show_name_in_global_search": 1,
- "sort_field": "name1",
  "sort_order": "DESC",
  "track_changes": 1
 }

@@ -1,0 +1,57 @@
+{
+ "creation": "2020-07-26 16:20:09.882660",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "site_customer",
+  "site_customer_display",
+  "customer_fromdate",
+  "customer_todate"
+ ],
+ "fields": [
+  {
+   "fieldname": "site_customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Customer Name",
+   "options": "Customer",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "site_customer_display",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Display Name"
+  },
+  {
+   "fieldname": "customer_fromdate",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "From",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_todate",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "To"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-07-26 16:23:23.318419",
+ "modified_by": "Administrator",
+ "module": "Operations",
+ "name": "Plant Customer",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

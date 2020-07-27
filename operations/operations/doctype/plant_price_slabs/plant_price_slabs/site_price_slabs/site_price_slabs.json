@@ -1,0 +1,84 @@
+{
+ "creation": "2020-07-26 17:11:59.157254",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "priceslab_id",
+  "priceslab_from",
+  "priceslab_to",
+  "priceslab_isnight",
+  "priceslab_fuelrate",
+  "priceslab_equiprate",
+  "priceslab_minofftake",
+  "priceslab_fromdate",
+  "priceslab_todate"
+ ],
+ "fields": [
+  {
+   "fieldname": "priceslab_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "priceslab_from",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Price Slab From"
+  },
+  {
+   "fieldname": "priceslab_to",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Price Slab To"
+  },
+  {
+   "default": "0",
+   "fieldname": "priceslab_isnight",
+   "fieldtype": "Check",
+   "label": "isNight"
+  },
+  {
+   "fieldname": "priceslab_fuelrate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Fuel Rate"
+  },
+  {
+   "fieldname": "priceslab_equiprate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Equipment Rate"
+  },
+  {
+   "fieldname": "priceslab_minofftake",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Minimum Off-take"
+  },
+  {
+   "fieldname": "priceslab_fromdate",
+   "fieldtype": "Date",
+   "label": "Valid From"
+  },
+  {
+   "fieldname": "priceslab_todate",
+   "fieldtype": "Date",
+   "label": "Valid To"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-07-26 17:34:47.334435",
+ "modified_by": "Administrator",
+ "module": "Operations",
+ "name": "Site Price Slabs",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
