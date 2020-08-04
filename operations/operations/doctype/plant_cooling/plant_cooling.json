@@ -1,0 +1,35 @@
+{
+ "creation": "2020-07-28 10:13:51.935996",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "plant_cooling_capacity",
+  "plant_cooling_rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "plant_cooling_capacity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "plant_cooling_rate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Rate"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-08-04 10:08:19.764002",
+ "modified_by": "beschier.h@enerwhere.com",
+ "module": "Operations",
+ "name": "Plant Cooling",
+ "owner": "beschier.h@enerwhere.com",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,82 @@
+{
+ "creation": "2020-08-04 10:12:04.022300",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "om_start",
+  "om_end",
+  "om_kwp",
+  "om_price",
+  "om_billing_period",
+  "om_invoice_date",
+  "om_inflation",
+  "om_isprepaid",
+  "om_contract_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "om_start",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "om_end",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "End Date"
+  },
+  {
+   "fieldname": "om_kwp",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "KWP"
+  },
+  {
+   "fieldname": "om_price",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Price"
+  },
+  {
+   "fieldname": "om_billing_period",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Billing Period",
+   "options": "Weekly\nMonthly\nQuarterly\nYearly"
+  },
+  {
+   "fieldname": "om_invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "om_inflation",
+   "fieldtype": "Float",
+   "label": "Annual Inflation"
+  },
+  {
+   "default": "0",
+   "fieldname": "om_isprepaid",
+   "fieldtype": "Check",
+   "label": "isPrepaid"
+  },
+  {
+   "fieldname": "om_contract_price",
+   "fieldtype": "Int",
+   "label": "Contract Price"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-08-04 11:09:23.347969",
+ "modified_by": "Administrator",
+ "module": "Operations",
+ "name": "Plant Maintenance",
+ "owner": "beschier.h@enerwhere.com",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

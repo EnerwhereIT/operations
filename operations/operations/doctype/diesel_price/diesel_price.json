@@ -35,6 +35,7 @@
    "fieldtype": "Float",
    "in_list_view": 1,
    "label": "Price",
+   "reqd": 1,
    "search_index": 1
   },
   {
@@ -47,8 +48,8 @@
    "read_only": 1
   }
  ],
- "modified": "2020-07-26 11:10:39.874886",
- "modified_by": "Administrator",
+ "modified": "2020-07-28 12:02:57.246560",
+ "modified_by": "aiswarya.b@enerwhere.com",
  "module": "Operations",
  "name": "Diesel Price",
  "name_case": "Title Case",

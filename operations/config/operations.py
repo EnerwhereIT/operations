@@ -16,6 +16,11 @@ def get_data():
                     "type": "doctype",
                     "name": "Diesel Price",
                     "onboard": 1
+                },
+                {
+                    "type": "doctype",
+                    "name": "Meter Reading",
+                    "onboard": 1
                 }
             ]
         }

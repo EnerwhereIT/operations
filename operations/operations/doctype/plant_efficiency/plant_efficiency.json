@@ -1,0 +1,42 @@
+{
+ "creation": "2020-08-04 10:31:00.769204",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "eff_area",
+  "eff_fixed",
+  "eff_usage"
+ ],
+ "fields": [
+  {
+   "fieldname": "eff_area",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Area in m2"
+  },
+  {
+   "fieldname": "eff_fixed",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Fixed Charge"
+  },
+  {
+   "fieldname": "eff_usage",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Usage Charge"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-08-04 11:09:11.347235",
+ "modified_by": "Administrator",
+ "module": "Operations",
+ "name": "Plant Efficiency",
+ "owner": "beschier.h@enerwhere.com",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

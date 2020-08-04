@@ -15,7 +15,11 @@
   "section_break_13",
   "plant_customer",
   "plant_project",
-  "plant_priceslabs"
+  "plant_priceslabs",
+  "section_break_12",
+  "plant_cooling",
+  "plant_maintenance",
+  "plant_efficiency"
  ],
  "fields": [
   {
@@ -52,32 +56,52 @@
    "fieldname": "plant_customer",
    "fieldtype": "Table",
    "label": "Customer",
-   "options": "Plant Customer",
-   "reqd": 1
+   "options": "Plant Customer"
   },
   {
    "fieldname": "plant_project",
    "fieldtype": "Table",
    "label": "Project",
-   "options": "Site Project",
-   "reqd": 1
+   "options": "Plant Project"
   },
   {
    "fieldname": "plant_priceslabs",
    "fieldtype": "Table",
    "label": "Price Slabs",
-   "options": "Site Price Slabs",
-   "reqd": 1
+   "options": "Site Price Slabs"
   },
   {
    "fieldname": "plant_last_invoice_date",
    "fieldtype": "Date",
    "label": "Last Invoice Date"
+  },
+  {
+   "fieldname": "plant_cooling",
+   "fieldtype": "Table",
+   "label": "AC Cooling",
+   "options": "Plant Cooling"
+  },
+  {
+   "fieldname": "plant_maintenance",
+   "fieldtype": "Table",
+   "label": "Plant Maintenance",
+   "options": "Plant Maintenance"
+  },
+  {
+   "fieldname": "plant_efficiency",
+   "fieldtype": "Table",
+   "label": "Plant Efficiency",
+   "options": "Plant Efficiency"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
   }
  ],
  "max_attachments": 2,
- "modified": "2020-07-27 16:17:43.181989",
- "modified_by": "beschier.h@enerwhere.com",
+ "modified": "2020-08-04 15:21:28.233922",
+ "modified_by": "Administrator",
  "module": "Operations",
  "name": "Plants",
  "name_case": "Title Case",
