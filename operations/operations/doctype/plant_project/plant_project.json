@@ -25,8 +25,7 @@
    "fieldname": "project_costcenter",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Invoice Cost Center",
-   "reqd": 1
+   "label": "Invoice Cost Center"
   },
   {
    "fieldname": "project_commissioning_date",
@@ -40,7 +39,7 @@
   }
  ],
  "istable": 1,
- "modified": "2020-07-26 16:34:53.815822",
+ "modified": "2020-08-04 16:09:37.049733",
  "modified_by": "Administrator",
  "module": "Operations",
  "name": "Plant Project",

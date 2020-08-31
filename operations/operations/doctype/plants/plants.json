@@ -7,15 +7,19 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "plant_id",
+  "extid",
   "subsidiary",
   "type",
+  "plant_from",
+  "plant_to",
   "invoice_form",
   "plant_paymentterms",
   "plant_last_invoice_date",
   "section_break_13",
   "plant_customer",
   "plant_project",
-  "plant_priceslabs",
+  "price_slabs",
   "section_break_12",
   "plant_cooling",
   "plant_maintenance",
@@ -59,18 +63,6 @@
    "options": "Plant Customer"
   },
   {
-   "fieldname": "plant_project",
-   "fieldtype": "Table",
-   "label": "Project",
-   "options": "Plant Project"
-  },
-  {
-   "fieldname": "plant_priceslabs",
-   "fieldtype": "Table",
-   "label": "Price Slabs",
-   "options": "Site Price Slabs"
-  },
-  {
    "fieldname": "plant_last_invoice_date",
    "fieldtype": "Date",
    "label": "Last Invoice Date"
@@ -97,10 +89,42 @@
    "collapsible": 1,
    "fieldname": "section_break_12",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "price_slabs",
+   "fieldtype": "Table",
+   "label": "Price Slabs",
+   "options": "Plant Price Slabs"
+  },
+  {
+   "fieldname": "plant_project",
+   "fieldtype": "Table",
+   "label": "Plant Project",
+   "options": "Plant Project"
+  },
+  {
+   "fieldname": "plant_id",
+   "fieldtype": "Data",
+   "label": "Plant ID"
+  },
+  {
+   "fieldname": "extid",
+   "fieldtype": "Int",
+   "label": "ExtID"
+  },
+  {
+   "fieldname": "plant_from",
+   "fieldtype": "Date",
+   "label": "From"
+  },
+  {
+   "fieldname": "plant_to",
+   "fieldtype": "Date",
+   "label": "To"
   }
  ],
  "max_attachments": 2,
- "modified": "2020-08-04 15:21:28.233922",
+ "modified": "2020-08-20 23:15:49.708246",
  "modified_by": "Administrator",
  "module": "Operations",
  "name": "Plants",
@@ -121,6 +145,7 @@
   }
  ],
  "show_name_in_global_search": 1,
+ "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1
 }

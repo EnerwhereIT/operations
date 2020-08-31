@@ -17,10 +17,9 @@
  "fields": [
   {
    "fieldname": "priceslab_id",
-   "fieldtype": "Data",
+   "fieldtype": "Read Only",
    "in_list_view": 1,
    "label": "ID",
-   "reqd": 1,
    "search_index": 1
   },
   {
@@ -71,7 +70,7 @@
   }
  ],
  "istable": 1,
- "modified": "2020-07-26 17:21:22.831164",
+ "modified": "2020-08-04 16:14:10.415577",
  "modified_by": "Administrator",
  "module": "Operations",
  "name": "Plant Price Slabs",

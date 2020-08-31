@@ -8,7 +8,11 @@
   "valid_from",
   "valid_to",
   "price",
-  "amended_from"
+  "amended_from",
+  "rgt",
+  "is_group",
+  "old_parent",
+  "parent_diesel_price"
  ],
  "fields": [
   {
@@ -46,9 +50,35 @@
    "options": "Diesel Price",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "rgt",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Right",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_group",
+   "fieldtype": "Check",
+   "label": "Is Group"
+  },
+  {
+   "fieldname": "old_parent",
+   "fieldtype": "Link",
+   "label": "Old Parent",
+   "options": "Diesel Price"
+  },
+  {
+   "fieldname": "parent_diesel_price",
+   "fieldtype": "Link",
+   "label": "Parent Diesel Price",
+   "options": "Diesel Price"
   }
  ],
- "modified": "2020-07-28 12:02:57.246560",
+ "modified": "2020-08-13 14:04:14.983392",
  "modified_by": "aiswarya.b@enerwhere.com",
  "module": "Operations",
  "name": "Diesel Price",
